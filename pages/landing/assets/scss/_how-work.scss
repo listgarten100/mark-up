@@ -54,129 +54,129 @@
 
 
 
-// @media (min-width: 1200px) and (max-width: 1499px) {
-//   .how-work {
-//     &__inner {
-//       padding-top: 50px;
-//       padding-right: 100px;
+@media (min-width: 1200px) and (max-width: 1499px) {
+  .how-work {
+    &__inner {
+      padding-top: 50px;
+      padding-right: 100px;
 
-//       grid-gap: 30px;
-//       grid-template-areas: "img" "title" "text";
-//       grid-template-columns: 1fr 1.6fr;
-//     }
+      grid-gap: 30px;
+      grid-template-areas: "img" "title" "text";
+      grid-template-columns: 1fr 1.6fr;
+    }
 
-//     &__img {
-//       grid-column: 2/3;
-//     }
+    &__img {
+      grid-column: 2/3;
+    }
 
-//     &__title {
-//       width: 524px;
+    &__title {
+      width: 524px;
 
-//       grid-column: 2/3;
-//     }
+      grid-column: 2/3;
+    }
 
-//     &__text {
-//       width: 560px;
+    &__text {
+      width: 560px;
 
-//       grid-column: 2/3;
-//     }
-//   }
-// }
-
-
-
-// @media (min-width: 900px) and (max-width: 1199px) {
-//   .how-work {
-//     &__inner {
-//       padding-top: 50px;
-//       padding-right: 100px;
-
-//       grid-gap: 30px;
-//       grid-template-areas: "img" "title" "text";
-//       grid-template-columns: 1fr 1.6fr;
-//     }
-
-//     &__img {
-//       grid-column: 2/3;
-//     }
-
-//     &__title {
-//       width: 524px;
-
-//       grid-column: 2/3;
-//     }
-
-//     &__text {
-//       width: 560px;
-
-//       grid-column: 2/3;
-//     }
-//   }
-// }
+      grid-column: 2/3;
+    }
+  }
+}
 
 
+
+@media (min-width: 900px) and (max-width: 1199px) {
+  .how-work {
+    &__inner {
+      padding-top: 50px;
+      padding-right: 100px;
+
+      grid-gap: 30px;
+      grid-template-areas: "img" "title" "text";
+      grid-template-columns: 1fr 1.6fr;
+    }
+
+    &__img {
+      grid-column: 2/3;
+    }
+
+    &__title {
+      width: 524px;
+
+      grid-column: 2/3;
+    }
+
+    &__text {
+      width: 560px;
+
+      grid-column: 2/3;
+    }
+  }
+}
 
 
 
 
-// @media (min-width: 640px) and (max-width: 899px) {
-//   .how-work {
-//     &__inner {
-//       justify-content: center;
-
-//       padding-top: 50px;
-
-//       grid-gap: 30px;
-//       grid-template-areas: "img" "title" "text";
-//       grid-template-columns: 1fr;
-//     }
-
-//     &__title {
-//       width: 524px;
-//       margin-left: 20px;
-//     }
-
-//     &__text {
-//       width: 600px;
-//       margin: 0 20px;
-//     }
-//   }
-// }
 
 
+@media (min-width: 640px) and (max-width: 899px) {
+  .how-work {
+    &__inner {
+      justify-content: center;
 
-// @media (min-width: 320px) and (max-width: 639px) {
-//   .how-work {
-//     &__inner {
-//       justify-content: center;
+      padding-top: 50px;
 
-//       padding-top: 50px;
+      grid-gap: 30px;
+      grid-template-areas: "img" "title" "text";
+      grid-template-columns: 1fr;
+    }
 
-//       grid-gap: 30px;
-//       grid-template-areas: "img" "title" "text";
-//       grid-template-columns: 1fr;
-//     }
+    &__title {
+      width: 524px;
+      margin-left: 20px;
+    }
 
-//     &__img {
-//       border-radius: 5px;
-//     }
+    &__text {
+      width: 600px;
+      margin: 0 20px;
+    }
+  }
+}
 
-//     &__title {
-//       margin-left: 10px;
 
-//       font-size: 26px;
-//       font-weight: 500;
-//       line-height: 32px;
-//     }
 
-//     &__text {
-//       margin: 0 10px;
+@media (min-width: 320px) and (max-width: 639px) {
+  .how-work {
+    &__inner {
+      justify-content: center;
 
-//       font-weight: 400;
-//     }
+      padding-top: 50px;
 
-//     &__text--secondary {
-//       display: none;
-//     }
-//   }
-// }
+      grid-gap: 30px;
+      grid-template-areas: "img" "title" "text";
+      grid-template-columns: 1fr;
+    }
+
+    &__img {
+      border-radius: 5px;
+    }
+
+    &__title {
+      margin-left: 10px;
+
+      font-size: 26px;
+      font-weight: 500;
+      line-height: 32px;
+    }
+
+    &__text {
+      margin: 0 10px;
+
+      font-weight: 400;
+    }
+
+    &__text--secondary {
+      display: none;
+    }
+  }
+}
