@@ -95,106 +95,106 @@
 }
 
 
-// @media (min-width: 1200px) and (max-width: 1499px) {
-//   .watch-animals {
-//     &__inner {
-//       padding-left: 40px;
+@media (min-width: 1200px) and (max-width: 1499px) {
+  .watch-animals {
+    &__inner {
+      padding-left: 40px;
 
-//       background-position: center -10px;
-//       background-size: cover;
-//     }
+      background-position: center -10px;
+      background-size: cover;
+    }
 
-//     &__text {
-//       width: 340px;
-//     }
-//   }
-// }
-
-
-// @media (min-width: 900px) and (max-width: 1199px) {
-//   .watch-animals {
-//     &__inner {
-//       padding: 50px 0 50px 40px;
-
-//       background-position: 45% 20px;
-//       background-size: cover;
-//     }
-
-//     &__title {
-//       font-size: 72px;
-//     }
-
-//     &__text {
-//       width: 340px;
-//     }
-//   }
-// }
+    &__text {
+      width: 340px;
+    }
+  }
+}
 
 
-// @media (min-width: 640px) and (max-width: 899px) {
-//   .watch-animals {
-//     &__inner {
-//       padding: 50px 0 50px 20px;
+@media (min-width: 900px) and (max-width: 1199px) {
+  .watch-animals {
+    &__inner {
+      padding: 50px 0 50px 40px;
 
-//       background-position: 0 350px;
-//       background-size: contain;
-//     }
+      background-position: 45% 20px;
+      background-size: cover;
+    }
 
-//     &__title {
-//       width: 600px;
+    &__title {
+      font-size: 72px;
+    }
 
-//       font-size: 72px;
-//       line-height: 88px;
-//     }
-
-//     &__text {
-//       width: 340px;
-//     }
-
-//     &__btn {
-//       width: 285px;
-//     }
-//   }
-// }
+    &__text {
+      width: 340px;
+    }
+  }
+}
 
 
+@media (min-width: 640px) and (max-width: 899px) {
+  .watch-animals {
+    &__inner {
+      padding: 50px 0 50px 20px;
 
-// @media (min-width: 320px) and (max-width: 639px) {
-//   .watch-animals {
-//     &__inner {
-//       padding: 20px 0 0 0;
+      background-position: 0 350px;
+      background-size: contain;
+    }
 
-//       background-size: 0;
-//     }
+    &__title {
+      width: 600px;
 
-//     &__content {
-//       grid-gap: 20px;
-//     }
+      font-size: 72px;
+      line-height: 88px;
+    }
 
-//     &__title {
-//       width: 300px;
+    &__text {
+      width: 340px;
+    }
 
-//       font-size: 40px;
-//       line-height: 48px;
+    &__btn {
+      width: 285px;
+    }
+  }
+}
 
-//       justify-self: center;
-//     }
 
-//     &__text {
-//       width: 300px;
 
-//       justify-self: center;
-//     }
+@media (min-width: 320px) and (max-width: 639px) {
+  .watch-animals {
+    &__inner {
+      padding: 20px 0 0 0;
 
-//     &__btn {
-//       width: 100%;
-//       margin-top: 10px;
+      background-size: 0;
+    }
 
-//       justify-self: center;
-//     }
+    &__content {
+      grid-gap: 20px;
+    }
 
-//     &__bg-img {
-//       display: block;
-//     }
-//   }
-// }
+    &__title {
+      width: 300px;
+
+      font-size: 40px;
+      line-height: 48px;
+
+      justify-self: center;
+    }
+
+    &__text {
+      width: 300px;
+
+      justify-self: center;
+    }
+
+    &__btn {
+      width: 100%;
+      margin-top: 10px;
+
+      justify-self: center;
+    }
+
+    &__bg-img {
+      display: block;
+    }
+  }
+}
