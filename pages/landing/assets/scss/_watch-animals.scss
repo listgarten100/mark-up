@@ -1,0 +1,200 @@
+.watch-animals {
+  position: relative;
+
+  display: block;
+
+  &__inner {
+    display: grid;
+
+    padding: 130px 0 130px 0;
+
+    background-image: url(../../../../assets/images/landing/img-bg-panda.png);
+    background-repeat: no-repeat;
+    background-position: calc(50% - 30px) -40px;
+    // background-size: cover;
+  }
+
+  &__content {
+    display: grid;
+
+    grid-gap: 36px;
+  }
+
+  &__title {
+    width: 890px;
+
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+
+    color: $jade;
+
+    font-family: $font;
+    font-size: 82px;
+    font-weight: 900;
+    font-style: normal;
+    line-height: 100px;
+  }
+
+  &__text {
+    width: 430px;
+
+    color: $black;
+
+    font-family: $font;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 27px;
+  }
+
+  &__btn {
+    width: 240px;
+    height: 74px;
+  }
+
+  &__bg-img {
+    display: none;
+
+    width: 100%;
+  }
+
+  &__btn-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100%;
+
+    text-transform: uppercase;
+
+    color: $white;
+    border-radius: 5px;
+    background-color: $orange;
+
+    font-family: $font;
+    font-size: 18px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 22px;
+
+    &:hover {
+      background-color: #d26004;
+    }
+
+    &:active {
+      background-color: #d26004;
+    }
+  }
+
+
+  &__btn-img {
+    width: 24px;
+    height: 22px;
+    margin-left: 10px;
+  }
+}
+
+
+// @media (min-width: 1200px) and (max-width: 1499px) {
+//   .watch-animals {
+//     &__inner {
+//       padding-left: 40px;
+
+//       background-position: center -10px;
+//       background-size: cover;
+//     }
+
+//     &__text {
+//       width: 340px;
+//     }
+//   }
+// }
+
+
+// @media (min-width: 900px) and (max-width: 1199px) {
+//   .watch-animals {
+//     &__inner {
+//       padding: 50px 0 50px 40px;
+
+//       background-position: 45% 20px;
+//       background-size: cover;
+//     }
+
+//     &__title {
+//       font-size: 72px;
+//     }
+
+//     &__text {
+//       width: 340px;
+//     }
+//   }
+// }
+
+
+// @media (min-width: 640px) and (max-width: 899px) {
+//   .watch-animals {
+//     &__inner {
+//       padding: 50px 0 50px 20px;
+
+//       background-position: 0 350px;
+//       background-size: contain;
+//     }
+
+//     &__title {
+//       width: 600px;
+
+//       font-size: 72px;
+//       line-height: 88px;
+//     }
+
+//     &__text {
+//       width: 340px;
+//     }
+
+//     &__btn {
+//       width: 285px;
+//     }
+//   }
+// }
+
+
+
+// @media (min-width: 320px) and (max-width: 639px) {
+//   .watch-animals {
+//     &__inner {
+//       padding: 20px 0 0 0;
+
+//       background-size: 0;
+//     }
+
+//     &__content {
+//       grid-gap: 20px;
+//     }
+
+//     &__title {
+//       width: 300px;
+
+//       font-size: 40px;
+//       line-height: 48px;
+
+//       justify-self: center;
+//     }
+
+//     &__text {
+//       width: 300px;
+
+//       justify-self: center;
+//     }
+
+//     &__btn {
+//       width: 100%;
+//       margin-top: 10px;
+
+//       justify-self: center;
+//     }
+
+//     &__bg-img {
+//       display: block;
+//     }
+//   }
+// }

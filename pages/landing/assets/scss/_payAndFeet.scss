@@ -1,0 +1,398 @@
+.pay {
+  position: relative;
+
+  display: block;
+
+  background-color: #20113d;
+
+  &__inner {
+    display: block;
+
+    padding: 90px 0;
+  }
+
+  &__title {
+    text-transform: uppercase;
+
+    color: $white;
+
+    font-family: $font;
+    font-size: 54px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 66px;
+  }
+
+  &__list {
+    position: relative;
+
+    display: block;
+  }
+
+  &__item {
+    display: block;
+
+    margin-top: 100px;
+  }
+
+  &__num-border {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__num {
+    margin-right: 90px;
+
+    color: $white;
+
+    font-family: $font;
+    font-size: 26px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 34px;
+  }
+
+  &__border {
+    width: 98%;
+    height: 1px;
+
+    background-color: #ffffff;
+  }
+
+  &__desc {
+    display: flex;
+
+    padding-top: 80px;
+  }
+
+  &__desc-img {
+    width: 560px;
+    height: 100%;
+  }
+
+  &__desc-text {
+    display: block;
+
+    margin-left: 160px;
+    padding-top: 22px;
+  }
+
+  &__desc-donatimg {
+    width: 106px;
+    height: 80px;
+  }
+
+  &__desc-title {
+    width: 500px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+
+    color: $white;
+
+    font-family: $font;
+    font-size: 26px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 34px;
+  }
+
+  &__desc-block-text {
+    width: 560px;
+
+    color: $white;
+
+    font-family: $font;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 27px;
+  }
+
+  &__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 240px;
+    height: 74px;
+    margin-top: 50px;
+
+    border-radius: 5px;
+    background-color: $orange;
+
+
+    &:hover {
+      background-color: #d26004;
+    }
+
+    &:active {
+      background-color: #d26004;
+    }
+  }
+
+  &__btn-text {
+    margin-right: 10px;
+
+    text-transform: uppercase;
+
+    color: $white;
+
+    font-family: $font;
+    font-size: 18px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 22px;
+  }
+
+  &__btn-img {
+    width: 25px;
+    height: 22px;
+  }
+}
+
+
+// @media (min-width: 1200px) and (max-width: 1499px) {
+//   .pay {
+//     &__inner {
+//       padding-right: 40px;
+//       padding-left: 40px;
+//     }
+
+//     &__item {
+//       &:first-child .pay__desc-text {
+//         margin-top: -35px;
+//         padding: 0;
+//       }
+//     }
+
+//     &__num {
+//       margin-right: 70px;
+//     }
+
+//     &__desc-text {
+//       display: flex;
+//       align-items: center;
+//       flex-direction: column;
+
+//       margin-left: 25px;
+//     }
+
+//     &__desc-block-text {
+//       width: 540px;
+
+//       text-align: center;
+//     }
+
+//     &__desc-title {
+//       margin-bottom: 30px;
+
+//       text-align: center;
+//     }
+
+//     &__btn {
+//       align-self: flex-start;
+
+//       margin-top: 115px;
+//     }
+//   }
+// }
+
+
+// @media (min-width: 900px) and (max-width: 1199px) {
+//   .pay {
+//     &__inner {
+//       padding-right: 40px;
+//       padding-left: 40px;
+//     }
+
+//     &__item {
+//       &:first-child .pay__desc-text {
+//         margin-top: -35px;
+//         padding: 0;
+//       }
+//     }
+
+//     &__num {
+//       margin-right: 70px;
+//     }
+
+//     &__desc {
+//       justify-content: center;
+//     }
+
+//     &__desc-img {
+//       width: 380px;
+//     }
+
+//     &__desc-text {
+//       display: flex;
+//       align-items: center;
+//       flex-direction: column;
+
+//       margin-left: 0;
+//     }
+
+//     &__desc-block-text {
+//       width: 400px;
+
+//       text-align: center;
+//     }
+
+//     &__desc-title {
+//       margin-bottom: 30px;
+
+//       text-align: center;
+//     }
+
+//     &__btn {
+//       align-self: flex-start;
+
+//       margin-top: 115px;
+//     }
+//   }
+// }
+
+
+// @media (min-width: 640px) and (max-width: 899px) {
+//   .pay {
+//     &__inner {
+//       padding-top: 80px;
+//     }
+
+//     &__title {
+//       text-align: center;
+//     }
+
+//     &__num-border {
+//       padding-right: 20px;
+//       padding-left: 20px;
+//     }
+
+//     &__num {
+//       margin-right: 14px;
+//     }
+
+//     &__item {
+//       margin-top: 65px;
+//     }
+
+//     &__desc {
+//       display: block;
+//     }
+
+//     &__desc-img {
+//       display: block;
+
+//       width: 640px;
+//       margin: 0 auto;
+//     }
+
+//     &__desc-text {
+//       display: flex;
+//       align-items: center;
+//       flex-direction: column;
+
+//       margin-left: 0;
+//       padding-top: 50px;
+//       padding-right: 20px;
+//       padding-left: 20px;
+//     }
+
+//     &__desc-block-text {
+//       width: 100%;
+
+//       text-align: center;
+//     }
+
+//     &__desc-title {
+//       margin-bottom: 30px;
+
+//       text-align: center;
+//     }
+
+//     &__btn {
+//       width: 290px;
+//       margin-top: 115px;
+//     }
+//   }
+// }
+
+
+// @media (min-width: 320px) and (max-width: 639px) {
+//   .pay {
+//     &__inner {
+//       padding-top: 20px;
+//     }
+
+//     &__title {
+//       text-align: center;
+
+//       font-size: 26px;
+//     }
+
+//     &__num-border {
+//       display: flex;
+//       align-items: center;
+
+//       padding-left: 20px;
+//     }
+
+//     &__num {
+//       margin-right: 14px;
+//     }
+
+//     &__num {
+//       margin-right: 10px;
+//     }
+
+//     &__item {
+//       margin-top: 45px;
+//     }
+
+//     &__desc {
+//       display: block;
+
+//       padding-top: 30px;
+//     }
+
+//     &__desc-title {
+//       width: 90%;
+//     }
+
+//     &__desc-img {
+//       display: block;
+
+//       width: 640px;
+//       margin: 0 auto;
+//     }
+
+//     &__desc-text {
+//       display: flex;
+//       align-items: center;
+//       flex-direction: column;
+
+//       margin-left: 0;
+//       padding-top: 30px;
+//       padding-right: 20px;
+//       padding-left: 20px;
+//     }
+
+//     &__desc-block-text {
+//       width: 100%;
+
+//       text-align: center;
+//     }
+
+//     &__desc-title {
+//       margin-bottom: 30px;
+
+//       text-align: center;
+//     }
+
+//     &__btn {
+//       width: 290px;
+//       margin-top: 50px;
+//     }
+//   }
+// }

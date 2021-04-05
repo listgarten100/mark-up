@@ -1,0 +1,81 @@
+/* wrapper */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: block;
+  //   overflow: hidden;
+}
+
+.page {
+  overflow: hidden;
+}
+
+.layout {
+  position: relative;
+
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  //   overflow: hidden;
+}
+
+
+.layout2 {
+  position: relative;
+
+  overflow: hidden;
+
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+
+
+//   @media (min-width: 1200px) and (max-width: 1499px) {
+
+//     .layout2{
+//        max-width: 1400px;
+//     }
+// }
+
+
+//   @media (min-width: 1500px) and (max-width: 1919px) {
+//     .layout{
+//         width: 96%;
+//     }
+//   }
+
+
+
+
+// @media (min-width: 1200px) and (max-width: 1499px) {
+//     .layout{
+//         width: 96%;
+//     }
+//   }
+
+
+
+// @media (min-width: 900px) and (max-width: 1199px) {
+//     .layout{
+//         width: 96%;
+//     }
+//   }
+
+
+
+//   @media (min-width: 640px) and (max-width: 899px) {
+//     .layout{
+//         width: 96%;
+//     }
+//   }
+
+
+//   @media (min-width: 320px) and (max-width: 639px) {
+//     .layout{
+//         width: 96%;
+//     }
+//   }

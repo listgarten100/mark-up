@@ -1,0 +1,165 @@
+.welcome {
+  position: relative;
+
+  display: block;
+
+  &__inner {
+    display: grid;
+
+    width: 100%;
+    padding-top: 150px;
+
+    grid-column-gap: 40px;
+    grid-row-gap: 50px;
+    grid-template-areas: "title img" "text img";
+    grid-template-columns: 1fr 1.4fr;
+  }
+
+  &__title {
+    align-self: end;
+
+    text-transform: uppercase;
+
+    color: $jade;
+
+    font-family: $font;
+    font-size: 54px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 66px;
+
+    grid-area: title;
+  }
+
+
+  &__text {
+    color: $black;
+
+    font-family: $font;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 27px;
+
+    grid-area: text;
+  }
+
+  &__img {
+    width: 800px;
+
+    grid-area: img;
+  }
+}
+
+
+
+// @media (min-width: 1200px) and (max-width: 1499px) {
+//   .welcome {
+//     &__inner {
+//       padding-top: 100px;
+//       padding-left: 100px;
+
+//       grid-gap: 30px;
+//       grid-template-areas: "img" "title" "text";
+//       grid-template-columns: 1.6fr 1fr;
+//     }
+
+//     &__title {
+//       width: 524px;
+//     }
+
+//     &__text {
+//       width: 560px;
+//     }
+//   }
+// }
+
+
+
+// @media (min-width: 900px) and (max-width: 1199px) {
+//   .welcome {
+//     &__inner {
+//       padding-top: 100px;
+//       padding-left: 100px;
+
+//       grid-gap: 30px;
+//       grid-template-areas: "img" "title" "text";
+//       grid-template-columns: 1.6fr 1fr;
+//     }
+
+//     &__title {
+//       width: 524px;
+//     }
+
+//     &__text {
+//       width: 560px;
+//     }
+//   }
+// }
+
+
+
+
+
+
+// @media (min-width: 640px) and (max-width: 899px) {
+//   .welcome {
+//     &__inner {
+//       justify-content: center;
+
+//       padding-top: 100px;
+
+//       grid-gap: 30px;
+//       grid-template-areas: "img" "title" "text";
+//       grid-template-columns: 1fr;
+//     }
+
+//     &__title {
+//       width: 524px;
+//       margin-left: 20px;
+//     }
+
+//     &__text {
+//       width: 600px;
+//       margin: 0 20px;
+//     }
+//   }
+// }
+
+
+
+// @media (min-width: 320px) and (max-width: 639px) {
+//   .welcome {
+//     &__inner {
+//       justify-content: center;
+
+//       padding-top: 50px;
+
+//       grid-gap: 30px;
+//       grid-template-areas: "img" "title" "text";
+//       grid-template-columns: 1fr;
+//     }
+
+//     &__img {
+//       border-radius: 5px;
+//     }
+
+//     &__title {
+//       margin-left: 10px;
+
+//       font-size: 26px;
+//       font-weight: 500;
+//       line-height: 32px;
+//     }
+
+//     &__text {
+//       margin: 0 10px;
+
+//       font-weight: 400;
+//     }
+
+//     &__text--secondary {
+//       display: none;
+//     }
+//   }
+// }

@@ -1,0 +1,419 @@
+.contact {
+  position: relative;
+
+  display: block;
+
+  &__inner {
+    display: block;
+
+    padding-bottom: 140px;
+  }
+
+  &__img {
+    width: 100%;
+  }
+}
+
+.get-touch {
+  position: relative;
+
+  display: block;
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+
+    padding-top: 150px;
+  }
+
+  &__block {
+    display: block;
+  }
+
+  &__block-title {
+    margin-bottom: 50px;
+
+    text-transform: uppercase;
+
+    color: $jade;
+
+    font-family: $font;
+    font-size: 54px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 66px;
+  }
+
+  &__block-text {
+    width: 545px;
+
+    color: $black;
+
+    font-family: $font;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 27px;
+  }
+}
+
+
+.form {
+  position: relative;
+
+  display: block;
+
+  &__fieldset {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__label {
+    display: block;
+
+    color: $black;
+
+    font-family: $font;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 27px;
+
+
+    &::before {
+      content: "*";
+
+      color: $jade;
+    }
+  }
+
+  &__error {
+    display: block;
+    display: none;
+
+    margin-top: 3px;
+    margin-bottom: 30px;
+
+    text-align: left;
+
+    color: red;
+
+    font-size: 12px;
+  }
+
+  &__input {
+    display: block;
+
+    width: 680px;
+    height: 60px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding-left: 20px;
+
+    color: #000000;
+    border: 1px solid $black;
+    border-radius: 5px;
+
+    font-family: $font;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 27px;
+
+    &::placeholder {
+      color: #969696;
+
+      font-family: $font;
+      font-size: 18px;
+      font-weight: normal;
+      font-style: normal;
+      line-height: 27px;
+    }
+  }
+
+
+  &__textarea {
+    display: block;
+
+    width: 680px;
+    height: 200px;
+    margin-top: 10px;
+    margin-bottom: 67px;
+    padding-top: 20px;
+    padding-left: 20px;
+
+    resize: none;
+
+    color: #000000;
+    border: 1px solid $black;
+    border-radius: 5px;
+
+    font-family: $font;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 27px;
+
+    &::placeholder {
+      color: #a4a8ae;
+
+      font-family: $font;
+      font-size: 18px;
+      font-weight: normal;
+      font-style: normal;
+      line-height: 27px;
+    }
+  }
+
+  &__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 360px;
+    height: 74px;
+
+    cursor: pointer;
+    text-transform: uppercase;
+
+    color: $white;
+    border: 1px solid $white;
+    border-radius: 5px;
+    background-color: $jade;
+
+    font-family: $font;
+    font-size: 18px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 22px;
+
+    &:hover {
+      background-color: $orange;
+    }
+
+
+    &::after{
+        content: '';
+        width: 25px;
+        height: 22px;
+        margin-left: 10px;
+    
+        background-image: url("../../../../assets/icons/landing/icon-arrowRightWhite.svg");
+    }
+  }
+
+}
+
+
+input[type="email"]:invalid:not(:placeholder-shown) + .form__error {
+  display: block;
+}
+
+input[type="email"]:invalid:not(:placeholder-shown) {
+  margin-bottom: 0;
+
+  border: 1px solid red;
+}
+
+
+// @media (min-width: 1200px) and (max-width: 1499px) {
+//   .contact {
+//     &__inner {
+//       padding-bottom: 100px;
+//     }
+//   }
+
+//   .get-touch {
+//     &__inner {
+//       align-items: center;
+//       flex-direction: column;
+
+//       padding-top: 50px;
+//     }
+
+//     &__block {
+//       margin-bottom: 50px;
+//     }
+
+//     &__block-title {
+//       margin-bottom: 30px;
+
+//       text-align: center;
+//     }
+
+//     &__block-text {
+//       width: 835px;
+
+//       text-align: center;
+//     }
+//   }
+
+//   .form {
+//     &__textarea {
+//       margin-bottom: 50px;
+//     }
+//   }
+// }
+
+
+
+// @media (min-width: 900px) and (max-width: 1199px) {
+//   .contact {
+//     &__inner {
+//       padding-bottom: 100px;
+//     }
+//   }
+
+//   .get-touch {
+//     &__inner {
+//       align-items: center;
+//       flex-direction: column;
+
+//       padding-top: 50px;
+//     }
+
+//     &__block {
+//       margin-bottom: 50px;
+//     }
+
+//     &__block-title {
+//       margin-bottom: 30px;
+
+//       text-align: center;
+//     }
+
+//     &__block-text {
+//       width: 835px;
+
+//       text-align: center;
+//     }
+//   }
+
+//   .form {
+//     &__textarea {
+//       margin-bottom: 50px;
+//     }
+//   }
+// }
+
+
+
+// @media (min-width: 640px) and (max-width: 899px) {
+//   .contact {
+//     &__inner {
+//       padding-bottom: 100px;
+//     }
+//   }
+
+//   .get-touch {
+//     &__inner {
+//       align-items: center;
+//       flex-direction: column;
+
+//       padding-top: 50px;
+//     }
+
+//     &__block {
+//       margin-bottom: 50px;
+//     }
+
+//     &__block-title {
+//       margin-bottom: 30px;
+
+//       text-align: center;
+//     }
+
+//     &__block-text {
+//       width: 600px;
+
+//       text-align: center;
+//     }
+//   }
+
+//   .form {
+//     &__label {
+//       margin: 0 auto;
+//     }
+
+//     &__input {
+//       width: 600px;
+//     }
+
+//     &__textarea {
+//       width: 600px;
+//       margin-bottom: 50px;
+//     }
+
+//     &__btn {
+//       width: 290px;
+//       margin: 0 auto;
+//     }
+//   }
+// }
+
+
+
+// @media (min-width: 320px) and (max-width: 639px) {
+//   .contact {
+//     &__inner {
+//       padding-bottom: 80px;
+//     }
+//   }
+
+//   .get-touch {
+//     &__inner {
+//       align-items: center;
+//       flex-direction: column;
+
+//       padding-top: 30px;
+//     }
+
+//     &__block {
+//       margin-bottom: 50px;
+//     }
+
+//     &__block-title {
+//       margin-bottom: 30px;
+
+//       text-align: center;
+
+//       font-size: 26px;
+//       font-weight: 500;
+//       line-height: 32px;
+//     }
+
+//     &__block-text {
+//       width: 100%;
+//       padding: 0 10px;
+
+//       text-align: center;
+//     }
+//   }
+
+//   .form {
+//     width: 100%;
+
+//     &__fieldset {
+//       width: 100%;
+//       padding: 0 10px;
+//     }
+
+//     &__input {
+//       width: 100%;
+//       height: 50px;
+//       padding-left: 10px;
+//     }
+
+//     &__textarea {
+//       width: 100%;
+//       margin-bottom: 30px;
+//       padding-left: 10px;
+//     }
+
+//     &__btn {
+//       width: 300px;
+//       height: 50px;
+//       margin: 0 auto;
+//     }
+//   }
+// }
